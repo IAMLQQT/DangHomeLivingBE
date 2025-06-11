@@ -1,0 +1,38 @@
+app: 
+  host: "localhost"
+  port: 3000
+  base_url: "http://localhost:3000"
+  secret: "secret"
+database:
+  mongo: 
+    uri: "mongodb://localhost:27017/DangHomeLiving"
+cache:
+  redis:
+    uri: "redis://localhost:6379"
+auth:
+  otplength: 6
+  otpTTL: 300
+file: 
+  type: ["jpg", "jpeg", "svg", "webp", "png", "mp3", "xls", "xlsx", "csv"]
+security:
+  jwtSecret: "secret"
+  jwtExpire: "1d"
+mail : 
+  host: smtp.gmail.com
+  port: 587
+  user: "lequanquocthinh95th@gmail.com"
+  pass: "gecp tlau uygc jgir"
+  from: "lequanquocthinh95th@gmail.com"
+throttle:
+  short: 
+    ttl: 10
+    limti: 10
+  medium:
+    ttl: 10000
+    limit: 20
+  long: 
+    ttl: 60000
+    limit: 100
+header: 
+  - product: web
+    token : "yRajKwZhZV85fvdPcxA9Xpsy8P0RSVR0"
