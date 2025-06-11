@@ -20,9 +20,9 @@ security:
 mail : 
   host: smtp.gmail.com
   port: 587
-  user: "your_mail"
-  pass: "pass"
-  from: "your_mail"
+  user: "lequanquocthinh95th@gmail.com"
+  pass: "gdze mrdw iuoo cyrc"
+  from: "lequanquocthinh95th@gmail.com"
 throttle:
   short: 
     ttl: 10
