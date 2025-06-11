@@ -21,7 +21,7 @@ mail :
   host: smtp.gmail.com
   port: 587
   user: "lequanquocthinh95th@gmail.com"
-  pass: "gdze mrdw iuoo cyrc"
+  pass: "pass"
   from: "lequanquocthinh95th@gmail.com"
 throttle:
   short: 
